@@ -28,7 +28,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		// 画面のクリア
 		ClearDrawScreen();
 
-		DrawString(Game::kScreenWidth / 2, Game::kScreenHeight / 2, "gitのテストであるzoi", GetColor(255, 255, 255));
+		DrawString(Game::kScreenWidth / 2 - 100, Game::kScreenHeight / 2, "gitのテストであるzoi", GetColor(255, 255, 255));
+		DrawString(Game::kScreenWidth / 2 - 100, Game::kScreenHeight / 2 + 30, "ファイル更新のテストじゃ", GetColor(255, 255, 255));
 
 		// 裏画面を表画面を入れ替える
 		ScreenFlip();
